@@ -1,0 +1,10 @@
+/* Add this inside your <style> tag at the very bottom */
+.result-card, .notes-section, .quiz-section {
+    transition: all 0.3s ease;
+    cursor: default;
+}
+.result-card:hover, .notes-section:hover, .quiz-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px -10px rgba(0,0,0,0.5);
+    filter: brightness(1.1);
+}
